@@ -1,1 +1,1 @@
-BlackJack.py  #Project freeCodeCamp, experimenting
+BlackJack.py  #Project freeCodeCamp
