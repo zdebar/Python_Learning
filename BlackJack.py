@@ -27,3 +27,4 @@ class Deck:
 
 card1 = Card("♥", {"rank":'5',"value": 5})
 print(card1)
+print(card1)
