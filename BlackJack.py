@@ -17,7 +17,7 @@ class Deck:
         rank_values = {rank: 11 if rank == "A" else 10 if rank in list("JQK") else int(rank) for rank in ranks}
         self.cards = [[suit, {key: value}] for suit in suits for key, value in rank_values.items()]
         
-    # Definice funkcí
+    # Definice funkcí zamíchání a rozdání karet
 
     def shuffle(self):
         random.shuffle(self.cards)
