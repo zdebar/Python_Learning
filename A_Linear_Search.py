@@ -1,6 +1,7 @@
-def locate_card(cards, query):
+def linear_search(cards, query):
     position = 0
-    while position < len(cards):
+    length = len(cards)
+    while position < length:
         if cards[position] == query:
             return position
         position += 1
